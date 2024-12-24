@@ -1,0 +1,159 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+     
+  }
+  .category {
+    padding-top: 155px; 
+  }
+  .shop-details {
+    font-size: small;
+  }
+  .product-card img {
+    width: 100px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    margin-bottom: 10px; /* Adds spacing below the image */
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .mrp {
+    position: relative;
+    display: inline-block;
+  }
+  .cart {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+ 
+  .free-delivery-banner {
+    text-align: center;
+    width: 100%;
+    color: #e6dfdf;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  .footer {
+    text-align: center;
+  }
+  .shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #143053;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shop-logo {
+    width: 100px;
+    background-color: #f8fafb;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .shop-details {
+    text-align: left;
+  }
+  
+  .shop-details h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #fefefe;
+  }
+  
+  .shop-details h3 {
+    font-size: 14px;
+    color: #fefefe;
+    margin: 4px 0;
+  }
+  
+  .shop-details p {
+    font-size: 12px;
+    color: #fefefe;
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+  }
+  
+  .icon:hover {
+    color: #007bff;
+  }
+  
+  .header-right {
+    text-align: right;
+  }
+  
+  .header-right h5 {
+    margin: 0;
+    font-size: 13px;
+    color: #fafbfd;
+  }
+  
+  .header-right p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #fefefe;
+  }
+  
+  
+  
